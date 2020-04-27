@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>URL Manager</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <!-- <script src="jquery-3.5.0.min.js"></script> -->
+    <!-- <script src="popup.js"></script> -->
+  </head>
+  <body>
+    <!-- <h2>
+      <span class="badge badge-secondary"
+        >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;URL
+        Manager&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span
+      >
+    </h2> -->
+    <img src="Logo.png" />
+
+    <h4>
+      <div style="text-align: center;" class="first">
+        <span class="badge badge-pill badge-light">Google</span>
+      </div>
+    </h4>
+
+    <div style="text-align: center;">
+      <a
+        href="https://www.google.com/"
+        target="_blank"
+        class="badge"
+        id="google"
+        >Google</a
+      >
+      <a
+        href="https://www.youtube.com/"
+        target="_blank"
+        class="badge"
+        id="youtube"
+        >Youtube</a
+      >
+      <a
+        href="https://www.google.com/drive/"
+        target="_blank"
+        class="badge"
+        id="gdrive"
+        >Drive</a
+      >
+      <a
+        href="https://hangouts.google.com/"
+        target="_blank"
+        class="badge"
+        id="hangout"
+        >Hangouts</a
+      >
+      <a
+        href="https://www.google.com/gmail/"
+        target="_blank"
+        class="badge"
+        id="gmail"
+        >Gmail</a
+      >
+      <a
+        href="https://calendar.google.com/calendar"
+        target="_blank"
+        class="badge"
+        id="calender"
+        >Calender</a
+      >
+      <a
+        href="https://scholar.google.com/"
+        target="_blank"
+        class="badge"
+        id="scholar"
+        >Scholar</a
+      >
+
+      <a
+        href="https://classroom.google.com/h"
+        target="_blank"
+        class="badge"
+        id="classroom"
+        >Classroom</a
+      >
+      <a href="https://docs.google.com/" target="_blank" class="badge" id="docs"
+        >Docs</a
+      >
+      <a
+        href="https://photos.google.com/"
+        target="_blank"
+        class="badge"
+        id="photos"
+        >Photos</a
+      >
+      <a
+        href="https://docs.google.com/spreadsheets/"
+        target="_blank"
+        class="badge"
+        id="sheets"
+        >Sheets</a
+      >
+      <a href="https://duo.google.com/" target="_blank" class="badge" id="duo"
+        >Duo</a
+      >
+    </div>
+    <br />
+
+    <h4>
+      <div style="text-align: center;" class="first">
+        <span class="badge badge-pill badge-light">Covid-19</span>
+      </div>
+    </h4>
+    <div style="text-align: center;">
+      <a
+        href="https://www.covid19india.org/"
+        target="_blank"
+        class="badge"
+        id="covidindia"
+      >
+        India Covid-19 Tracker</a
+      >
+      <a
+        href="https://www.worldometers.info/coronavirus/"
+        target="_blank"
+        class="badge"
+        id="covidglobal"
+      >
+        Global Covid-19 Tracker</a
+      >
+      <a href="https://mohfw.gov.in/" target="_blank" class="badge" id="mohw"
+        >MoHW</a
+      >
+      <a
+        href="https://www.pmcares.gov.in/"
+        target="_blank"
+        class="badge"
+        id="pmcares"
+        >PM Cares</a
+      >
+      <a href="https://www.who.int/" target="_blank" class="badge" id="who"
+        >WHO</a
+      >
+    </div>
+
+    <br />
+    <h4>
+      <div style="text-align: center;" class="first">
+        <span class="badge badge-pill badge-light">Social Media</span>
+      </div>
+    </h4>
+
+    <div style="text-align: center;">
+      <a
+        href="https://www.instagram.com/"
+        target="_blank"
+        class="badge"
+        id="insta"
+        >Instagram</a
+      >
+      <a href="https://www.facebook.com/" target="_blank" class="badge" id="fb"
+        >Facebook</a
+      >
+      <a href="https://twitter.com/" target="_blank" class="badge" id="twitter"
+        >Twitter</a
+      >
+      <a
+        href="https://www.snapchat.com/"
+        target="_blank"
+        class="badge"
+        id="snapchat"
+        >Snapchat</a
+      >
+      <a
+        href="https://in.linkedin.com/"
+        target="_blank"
+        class="badge"
+        id="linkedIn"
+        >LinkedIn</a
+      >
+      <a
+        href="https://web.whatsapp.com/"
+        target="_blank"
+        class="badge"
+        id="whats"
+        >WhatsApp</a
+      >
+      <a href="https://slack.com/" target="_blank" class="badge" id="slack"
+        >Slack</a
+      >
+      <a href="https://www.quora.com/" target="_blank" class="badge" id="quora"
+        >Quora</a
+      >
+      <a
+        href="https://www.reddit.com/"
+        target="_blank"
+        class="badge"
+        id="reddit"
+        >Reddit</a
+      >
+    </div>
+
+    <br />
+    <h4>
+      <div style="text-align: center;" class="first">
+        <span class="badge badge-pill badge-light">Entertainment</span>
+      </div>
+    </h4>
+
+    <div style="text-align: center;">
+      <a
+        href="https://www.netflix.com/"
+        target="_blank"
+        class="badge"
+        id="netflix"
+        >Netflix</a
+      >
+      <a
+        href="https://www.primevideo.com/"
+        target="_blank"
+        class="badge"
+        id="prime"
+        >Amazon Prime</a
+      >
+      <a
+        href="https://www.hotstar.com/in"
+        target="_blank"
+        class="badge"
+        id="hotstar"
+        >Hotstar</a
+      >
+      <a href="https://www.imdb.com/" target="_blank" class="badge" id="imbd"
+        >IMBD</a
+      >
+      <a href="https://www.ted.com/" target="_blank" class="badge" id="ted"
+        >TED Talks</a
+      >
+      <a
+        href="https://in.pinterest.com/"
+        target="_blank"
+        class="badge"
+        id="pinterest"
+        >Pinterest</a
+      >
+      <a href="https://www.zee5.com/" target="_blank" class="badge" id="zee5"
+        >ZEE5</a
+      >
+    </div>
+
+    <br />
+    <h4>
+      <div style="text-align: center;" class="first">
+        <span class="badge badge-pill badge-light">News</span>
+      </div>
+    </h4>
+
+    <div style="text-align: center;">
+      <a
+        href="https://www.indiatoday.in/"
+        target="_blank"
+        class="badge"
+        id="indiatoday"
+        >India Today</a
+      >
+      <a
+        href="https://www.thehindu.com/"
+        target="_blank"
+        class="badge"
+        id="hindu"
+        >The Hindu</a
+      >
+      <a href="https://www.ndtv.com/" target="_blank" class="badge" id="ndtv"
+        >NDTV</a
+      >
+      <a
+        href="https://www.hindustantimes.com/"
+        target="_blank"
+        class="badge"
+        id="hindustan"
+        >Hindustan Times</a
+      >
+      <a
+        href="https://www.rediff.com/"
+        target="_blank"
+        class="badge"
+        id="rediff"
+        >Rediff</a
+      >
+      <a href="https://edition.cnn.com/" target="_blank" class="badge" id="cnn"
+        >CNN</a
+      >
+      <a
+        href="https://www.nytimes.com/"
+        target="_blank"
+        class="badge"
+        id="newyork"
+        >New York Times</a
+      >
+      <a
+        href="https://economictimes.indiatimes.com/"
+        target="_blank"
+        class="badge"
+        id="economic"
+        >Economic Times</a
+      >
+
+      <a
+        href="https://timesofindia.indiatimes.com/"
+        target="_blank"
+        class="badge"
+        id="toi"
+        >TOI</a
+      >
+
+      <a
+        href="https://indianexpress.com/"
+        target="_blank"
+        class="badge"
+        id="express"
+        >Indian Express</a
+      >
+      <a href="https://www.bbc.com/" target="_blank" class="badge" id="bbc"
+        >BBC</a
+      >
+    </div>
+
+    <br />
+    <h4>
+      <div style="text-align: center;" class="first">
+        <span class="badge badge-pill badge-light">E-commerce</span>
+      </div>
+    </h4>
+
+    <div style="text-align: center;">
+      <a href="https://www.amazon.in/" target="_blank" class="badge" id="amazon"
+        >Amazon</a
+      >
+      <a
+        href="https://www.flipkart.com/"
+        target="_blank"
+        class="badge"
+        id="flipkart"
+        >Flipkart</a
+      >
+      <a
+        href="https://www.snapdeal.com/"
+        target="_blank"
+        class="badge"
+        id="snapdeal"
+        >Snapdeal</a
+      >
+      <a
+        href="https://www.myntra.com/"
+        target="_blank"
+        class="badge"
+        id="myntra"
+        >Myntra</a
+      >
+      <a
+        href="https://www.shopclues.com/"
+        target="_blank"
+        class="badge"
+        id="shopclues"
+        >Shopclues</a
+      >
+      <a
+        href="https://www.alibaba.com/"
+        target="_blank"
+        class="badge"
+        id="alibaba"
+        >Ali Baba</a
+      >
+      <a
+        href="https://in.bookmyshow.com/"
+        target="_blank"
+        class="badge"
+        id="bookmyshow"
+        >Book My Show</a
+      >
+
+      <a href="https://www.nykaa.com/" target="_blank" class="badge" id="nykaa"
+        >Nykaa</a
+      >
+      <a
+        href="https://www.firstcry.com/"
+        target="_blank"
+        class="badge"
+        id="firstcry"
+        >First Cry</a
+      >
+
+      <a href="https://www.shein.in/" target="_blank" class="badge" id="shein"
+        >Shein</a
+      >
+    </div>
+
+    <br />
+    <h4>
+      <div style="text-align: center;" class="first">
+        <span class="badge badge-pill badge-light">Music</span>
+      </div>
+    </h4>
+
+    <div style="text-align: center;">
+      <a
+        href="https://www.spotify.com/"
+        target="_blank"
+        class="badge"
+        id="spotify"
+        >Spotify</a
+      >
+      <a href="https://gaana.com/" target="_blank" class="badge" id="gaana"
+        >Gaana</a
+      >
+      <a href="https://wynk.in/music" target="_blank" class="badge" id="wynk"
+        >Wynk</a
+      >
+      <a
+        href="https://www.jiosaavn.com/"
+        target="_blank"
+        class="badge"
+        id="saavn"
+        >Saavn</a
+      >
+      <a
+        href="https://music.amazon.com/"
+        target="_blank"
+        class="badge"
+        id="amazonmusic"
+        >Amazon Music</a
+      >
+      <a
+        href="https://www.hungama.com/"
+        target="_blank"
+        class="badge"
+        id="hungama"
+        >Hungama</a
+      >
+    </div>
+
+    <br />
+    <h4>
+      <div style="text-align: center;" class="first">
+        <span class="badge badge-pill badge-light">Banking</span>
+      </div>
+    </h4>
+
+    <div style="text-align: center;">
+      <a
+        href="https://www.onlinesbi.com/"
+        target="_blank"
+        class="badge"
+        id="sbi"
+        >SBI</a
+      >
+      <a
+        href="https://www.hdfcbank.com/"
+        target="_blank"
+        class="badge"
+        id="hdfc"
+        >HDFC</a
+      >
+      <a
+        href="https://www.axisbank.com/"
+        target="_blank"
+        class="badge"
+        id="axis"
+        >Axis Bank</a
+      >
+      <a
+        href="https://www.icicibank.com/"
+        target="_blank"
+        class="badge"
+        id="icici"
+        >ICICI</a
+      >
+
+      <a href="https://idbibank.in/" target="_blank" class="badge" id="idbi"
+        >IDBI</a
+      >
+      <a href="https://www.yesbank.in/" target="_blank" class="badge" id="yes"
+        >YES Bank</a
+      >
+      <a
+        href="https://www.kotak.com/en.html"
+        target="_blank"
+        class="badge"
+        id="kotak"
+        >Kotak Mahindra</a
+      >
+      <a
+        href="https://www.indusind.com/"
+        target="_blank"
+        class="badge"
+        id="indus"
+        >Induslnd Bank</a
+      >
+      <a
+        href="https://indianbank.in/"
+        target="_blank"
+        class="badge"
+        id="indbank"
+        >Indian Bank</a
+      >
+    </div>
+
+    <br />
+    <h4>
+      <div style="text-align: center;" class="first">
+        <span class="badge badge-pill badge-light">E-Learning</span>
+      </div>
+    </h4>
+
+    <div style="text-align: center;">
+      <a href="https://www.udemy.com/" target="_blank" class="badge" id="udemy"
+        >Udemy</a
+      >
+      <a
+        href="https://www.coursera.org/"
+        target="_blank"
+        class="badge"
+        id="coursera"
+        >Coursera</a
+      >
+      <a href="https://medium.com/" target="_blank" class="badge" id="medium"
+        >Medium</a
+      >
+      <a
+        href="https://www.udacity.com/"
+        target="_blank"
+        class="badge"
+        id="udacity"
+        >Udacity</a
+      >
+      <a
+        href="https://www.khanacademy.org/"
+        target="_blank"
+        class="badge"
+        id="khan"
+        >Khan Acedemy</a
+      >
+      <a href="https://ed.ted.com/" target="_blank" class="badge" id="teded"
+        >TEDed</a
+      >
+      <a href="https://www.w3schools.com/" target="_blank" class="badge" id="w3"
+        >W3 Schools</a
+      >
+      <a
+        href="https://www.pluralsight.com/"
+        target="_blank"
+        class="badge"
+        id="plural"
+        >PluralSight</a
+      >
+      <a href="https://www.edx.org/" target="_blank" class="badge" id="edx"
+        >EDX</a
+      >
+    </div>
+
+    <br />
+    <h4>
+      <div style="text-align: center;" class="first">
+        <span class="badge badge-pill badge-light">Programming</span>
+      </div>
+    </h4>
+
+    <div style="text-align: center;">
+      <a
+        href="https://www.hackerrank.com/"
+        target="_blank"
+        class="badge"
+        id="hackerrank"
+        >HackerRank</a
+      >
+      <a
+        href="https://www.hackerearth.com/"
+        target="_blank"
+        class="badge"
+        id="hackerearth"
+        >HackerEarth</a
+      >
+      <a
+        href="https://www.codechef.com/"
+        target="_blank"
+        class="badge"
+        id="codechef"
+        >CodeChef</a
+      >
+      <a
+        href="https://codeforces.com/"
+        target="_blank"
+        class="badge"
+        id="codeforces"
+        >Codeforces</a
+      >
+      <a
+        href="https://www.topcoder.com/"
+        target="_blank"
+        class="badge"
+        id="topcoder"
+        >Topcoder</a
+      >
+      <a
+        href="https://leetcode.com/"
+        target="_blank"
+        class="badge"
+        id="leetcode"
+        >Leetcode</a
+      >
+      <a
+        href="https://www.interviewbit.com/"
+        target="_blank"
+        class="badge"
+        id="interviewbit"
+        >InterviewBit</a
+      >
+      <a href="https://www.spoj.com/" target="_blank" class="badge" id="spoj"
+        >SPOJ</a
+      >
+      <a
+        href="https://www.geeksforgeeks.org/"
+        target="_blank"
+        class="badge"
+        id="gfg"
+        >Geeks For Geeks</a
+      >
+      <a href="https://github.com/" target="_blank" class="badge" id="github"
+        >GitHub</a
+      >
+      <a
+        href="https://www.stopstalk.com/"
+        target="_blank"
+        class="badge"
+        id="stopstalk"
+        >StopStalk</a
+      >
+      <a
+        href="https://projecteuler.net/"
+        target="_blank"
+        class="badge"
+        id="euler"
+        >Euler Project</a
+      >
+    </div>
+    <br />
+  </body>
+</html>
